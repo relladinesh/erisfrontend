@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
+import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/Card";
 import { Dialog } from "../ui/Dialog";
 import { useDispatch, useSelector } from "react-redux";
 
