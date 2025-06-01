@@ -10,8 +10,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../ui/table";
-import { Button } from "../ui/Button";
+} from "../../components/ui/Table";
+import { Button } from "../../components/ui/Button";
 import Shoppingorderdetails from "./shoopingorderdetails";
 
 function Orders() {
