@@ -115,9 +115,9 @@ function CommonForm({ formControls, formData, setFormData, onSubmit, buttonText,
       data-user-id={currentUserID}
       data-timestamp={currentDate}
     >
-      <div className="flex flex-col gap-3 block">
+      <div className="flex flex-col gap-3 ">
         {formControls.map((controlItem) => (
-          <div className="grid w-full gap-1.5 block" key={`${controlItem.name}-${currentUserID}`}>
+          <div className="grid w-full gap-1.5 " key={`${controlItem.name}-${currentUserID}`}>
             <label className="mb-1 font-medium block" htmlFor={`${controlItem.name}-${currentUserID}`}>
               {controlItem.label}
             </label>

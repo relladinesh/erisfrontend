@@ -1,7 +1,7 @@
 
 import Orders from "@/assets/components/shoppingview/order";
 import accimg from "../../images/account.jpg"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../components/ui/Tabs"
 import Address from "@/assets/components/shoppingview/address";
 
 
